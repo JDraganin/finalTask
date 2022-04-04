@@ -10,5 +10,5 @@ import java.util.Map;
 public interface PurchaseService {
     ResponseEntity buyItem(PurchaseDto dto);
 
-    public Page<PurchaseViewDto> findAll(Map<String, String> fieldKeyAndValueMap, Pageable pageable);
+    Page<PurchaseViewDto> findAll(Map<String, String> fieldKeyAndValueMap, Pageable pageable);
 }
